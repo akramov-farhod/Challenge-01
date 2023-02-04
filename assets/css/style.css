@@ -1,13 +1,17 @@
+/* applies to the entire document */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* set background color of body element to #d9dcd6 */
 body {
     background-color: #d9dcd6;
 }
 
+/* using css to make header look and act like a navbar */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,16 +44,18 @@ header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* applies color and removes text decorations to all <a> elements */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* changes font size to 16 px for all <p> elements */
 p {
     font-size: 16px;
 }
 
+/* css for backsplash */
 .hero {
     height: 100%;
     width: 100%;
@@ -68,12 +74,15 @@ p {
     margin-left: 25px;
 }
 
+
+/* css for main content of the page  */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* css for the benefits content of the page  */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,6 +94,7 @@ p {
     background-color: #2589bd;
 }
 
+/* Benefits sidebar  */
 aside {
     margin-bottom: 32px;
     color: #ffffff;
@@ -100,72 +110,10 @@ aside img {
     margin: 10px auto;
     max-width: 150px;
 }
+/* ****************** */
 
-/* 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-
-
-
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-
-
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
-
-
-
-
-
-
-
-
-
-.search-engine-optimization {
+/* Main content  */
+section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -174,51 +122,17 @@ aside img {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+section img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* ****************** */
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Footer  */
 footer {
     padding: 30px;
     clear: both;
@@ -229,3 +143,4 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+/* ****************** */
